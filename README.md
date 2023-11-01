@@ -11,12 +11,37 @@ npm install react-native-custom-safearea-view-loader--module
 ## Usage
 
 ```js
-import { multiply } from 'react-native-custom-safearea-view-loader--module';
+import CustomSafeAreaView from 'react-native-custom-safearea-view-loader--module';;
 
 // ...
+export default function() {
+ const [showLoader,setShowLoader] = useState(false)
 
-const result = await multiply(3, 7);
+return (
+    <CustomSafeAreaView 
+    indicatorColor='red' 
+    showLoadingIndicator= {showLoader} 
+    edges={['top']}
+    
+    >
+    {
+        //...child element of a screen
+    }
+    </CustomSafeAreaView>
+)
+}
+
 ```
+## Properties
+ translucent?: boolean; //Status Bar
+ darkContent?: boolean; // Status Bar
+ backgroundColor?: string; // Status Bar background color
+ showLoadingIndicator?: boolean;
+ children?: JSX.Element;
+ edges?: Edges;
+ style?: StyleProp<ViewStyle>; // Container Style
+ indicatorColor?: string;
+ indicatorSize?: number | 'small' | 'large'
 
 ## Contributing
 
