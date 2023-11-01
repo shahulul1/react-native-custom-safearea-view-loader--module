@@ -51,6 +51,7 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 
 MIT
 
----
+## Author
+SHAHULUL FARIS P
 
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+
