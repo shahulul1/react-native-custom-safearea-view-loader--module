@@ -33,7 +33,7 @@ return (
 
 ```
 ## Properties
- translucent?: boolean; //Status Bar
+ translucent?: boolean; //Status Bar '\n'
  darkContent?: boolean; // Status Bar
  backgroundColor?: string; // Status Bar background color
  showLoadingIndicator?: boolean;
