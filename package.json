@@ -1,7 +1,7 @@
 {
   "name": "react-native-custom-safearea-view-loader--module",
-  "version": "1.0.0",
-  "description": "This package can be used for loader to show in the middle of screen",
+  "version": "1.0.1",
+  "description": "This library can be used for showing a loader in the middle of screen",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
