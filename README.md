@@ -2,6 +2,13 @@
 
 This package can be used for loader to show in the middle of screen
 
+## OutPut
+
+https://github.com/shahulul1/react-native-custom-safearea-view-loader--module/assets/96164057/6fb25908-2710-40a2-80ca-421facb85814
+
+
+
+
 ## Installation
 
 ```sh
