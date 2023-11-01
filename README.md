@@ -33,15 +33,15 @@ return (
 
 ```
 ## Properties
- translucent?: boolean; //Status Bar '\n'
- darkContent?: boolean; // Status Bar
- backgroundColor?: string; // Status Bar background color
- showLoadingIndicator?: boolean;
- children?: JSX.Element;
- edges?: Edges;
- style?: StyleProp<ViewStyle>; // Container Style
- indicatorColor?: string;
- indicatorSize?: number | 'small' | 'large'
+ translucent?: boolean; //Status Bar      
+ darkContent?: boolean; // Status Bar      
+ backgroundColor?: string; // Status Bar background color    
+ showLoadingIndicator?: boolean;        
+ children?: JSX.Element;         
+ edges?: Edges;      
+ style?: StyleProp<ViewStyle>; // Container Style     
+ indicatorColor?: string;           
+ indicatorSize?: number | 'small' | 'large'      
 
 ## Contributing
 
