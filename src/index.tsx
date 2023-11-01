@@ -8,7 +8,7 @@ import {
   type ViewStyle,
   type StyleProp,
 } from 'react-native';
-import { Edges, SafeAreaView} from 'react-native-safe-area-context';
+import { type Edges, SafeAreaView} from 'react-native-safe-area-context';
 
 export type SafeAreaProps = {
   translucent?: boolean;
