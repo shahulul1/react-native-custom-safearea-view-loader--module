@@ -42,7 +42,8 @@ return (
 ## Properties
  translucent?: boolean; //Status Bar      
  darkContent?: boolean; // Status Bar      
- backgroundColor?: string; // Status Bar background color    
+ backgroundColor?: string; // Status Bar background color      
+ hidden?: boolean // Status Bar hide        
  showLoadingIndicator?: boolean;        
  children?: JSX.Element;         
  edges?: Edges;      

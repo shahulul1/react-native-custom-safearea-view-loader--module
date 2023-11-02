@@ -20,6 +20,7 @@ export type SafeAreaProps = {
   style?: StyleProp<ViewStyle>;
   indicatorColor?: string;
   indicatorSize?: number | 'small' | 'large'
+  hidden?: boolean
 };
 
 const CustomSafeAreaViewLoader = (props: SafeAreaProps) => {
@@ -32,6 +33,7 @@ const CustomSafeAreaViewLoader = (props: SafeAreaProps) => {
         backgroundColor={
           props.backgroundColor ? props.backgroundColor : 'black'
         }
+        hidden={props.hidden}
       />
       <SafeAreaView
         pointerEvents = {props.showLoadingIndicator ? 'none' : 'auto'}
